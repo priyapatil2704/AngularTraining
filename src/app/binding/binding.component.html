@@ -1,0 +1,23 @@
+<!-- <p>binding works!</p>
+<h1>Data Binding in Angular</h1> -->
+
+
+<!-- Data binding by Interpolation technique -->
+<h1>{{ pageTitle }}</h1>
+<img src={{imageUrl1}}/><br>
+<button disabled={{buttonStatus}}>Click</button>
+<br>
+
+<!-- Data binding by property binding technique -->
+<h1>Property Binding</h1>
+<img [src]="imageUrl2"/><br>
+<button [disabled]="buttonStatus">Click</button>
+<br><br>
+
+<!-- Data binding by event binding technique -->
+<button (click)="changeTitle()">Click here to change title</button>
+<br><br>
+
+<!-- Data binding by two-way binding technique -->
+<input type="text" [(ngModel)]="username"/>
+<h3>Hi {{username}}</h3>
