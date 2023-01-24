@@ -1,0 +1,16 @@
+<h1 class="text-center">Users</h1>
+<table class="table table-bordered">
+    <tr class="bg-primary">
+      <th>Id</th>
+      <th>Name</th>
+      <th>City</th>
+    </tr>
+    <tr *ngFor="let user of users">
+      <!-- <td><a [routerLink]="['/user','user.id']">{{user.id}}</a></td> -->
+      <td>{{user.id}}</td>
+      <td>{{user.uname}}</td> 
+      <td>{{user.city}}</td>
+    </tr>
+  </table>
+  
+  
