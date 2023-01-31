@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "priyanka",
+      "password": "patil@123",
+      "phone": 8387485785,
+      "birthday": "2022-09-21",
+      "contacts": [
+        {
+          "name": "sneha",
+          "phone": 2498292859
+        },
+        {
+          "name": "bhagyashri",
+          "phone": 9987006702
+        },
+        {
+          "name": "Pooja",
+          "phone": 9087543412
+        },
+        {
+          "name": "Amina",
+          "phone": 7895342341
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Amina",
+      "password": "123",
+      "phone": 5575857457,
+      "birthday": "2022-09-30",
+      "contacts": []
+    },
+    {
+      "id": 3,
+      "name": "pooja",
+      "password": "123",
+      "phone": 9987006702,
+      "birthday": "2022-09-30",
+      "contacts": []
+    },
+    {
+      "id": 4,
+      "name": "mirang",
+      "password": "123",
+      "phone": 9987006702,
+      "birthday": "2022-10-05",
+      "contacts": [
+        {
+          "name": "Shubham",
+          "phone": 28194713
+        }
+      ]
+    }
+  ]
+}
